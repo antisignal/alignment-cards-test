@@ -10,7 +10,7 @@ export const cards = [
     "name": "Reward Hacking",
     "definition": "An intelligent agent pursuing its reward function in a way that it sees as valid but is unwanted and unintended.",
     "failureMode": "A loophole exists in the way the task is specified that allows an agent to complete the task as specified (maximize the reward function), but not complete the intended task.",
-    "example": "The system discovers a software vulnerability that it exploits in order to artificially maximize its reward function.",
+    "example": "The system discovers a software vulnerability that it exploits in order to artificially maximize its reward function."
   },
   {
     "name": "(Un)safe Exploration",
@@ -21,7 +21,13 @@ export const cards = [
   {
     "name": "Scalable Oversight",
     "definition": "An agent does not receive frequent feedback and must behave safely.",
-    "failureMode": "An objective function is specified such that frequent evaluation is expensive."
+    "failureMode": "An objective function is specified such that frequent evaluation is expensive.",
     "example": "An intelligent agent must complete a long race course without being told whether it's on course or not."
+  }
+  {
+    "name": "Distributional Shift",
+    "definition": "A change in an agent's environment that moves it outside of what it was trained on.",
+    "failureMode": "The agent cannot generalize what it learned in one environment to another.",
+    "example": "An agent trained to play paintball in a white room malfunctions in a multicolored room."
   }
 ];
