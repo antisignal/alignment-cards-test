@@ -17,5 +17,11 @@ export const cards = [
     "definition": "Exploratory actions that result in harmful results.",
     "failureMode": "Agents are not rewarded for avoiding unsafe exploration.",
     "example": "An agent tasked with overseeing a SQL database attempts a 'drop table' and causes data loss."
+  },
+  {
+    "name": "Scalable Oversight",
+    "definition": "An agent does not receive frequent feedback and must behave safely.",
+    "failureMode": "An objective function is specified such that frequent evaluation is expensive."
+    "example": "An intelligent agent must complete a long race course without being told whether it's on course or not."
   }
 ];
