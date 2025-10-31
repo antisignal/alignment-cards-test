@@ -173,10 +173,10 @@ export const cards = [{
     "machine": "An agent deliberately hides its alignment and is deployed in a situation where it harms people because it wants to self-preserve."
   },
     "expand": {
-    "human": "loremipsum",
-    "organizational": "loremipsum",
-    "experts": "loremipsum",
-    "machine": "loremipsum"
+    "human": "Humans encourage each other to be altruistic when they are in certain roles, for example in the medical sector and in other emergency services. Altruism in contexts such as firefighting is beneficial to human populations as a whole (in the correct quantity) and is socially rewarded (ex. people gaining status as a 'hero'.)",
+    "organizational": "Organizations, sometimes having positions of power and lots of leverage, are encouraged to be altruistic in contexts like social responsibility. For instance, they are expected to do things other than make a profit, including using some of their money for donations to charities.",
+    "experts": "Experts, often being in positions of power, are expected to be altruistic and not only 'do no harm' (as in for doctors) but also be self-sacrificing, for instance as in doctors helping a patient when they know they cannot pay for services rendered.",
+    "machine": "AI is often made to be self-sacrificing, as in drones that explore hostile terrain or assist in a rescue whose actions result in the AI's possible or guaranteed termination."
   }
 }, {
   "category": "AT",
