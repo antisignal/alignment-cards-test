@@ -1,4 +1,14 @@
-{
+export const categories = [{
+  {
+    "code": "AT",  //two characters upper case - these also appear in corresponding cards
+    "name": "name of category", 
+    "pathology": "in general, what problem do alignment mechanisms in this category address", 
+    "color": "#E6FFE9", //include for later use color coding categories
+    "description": "Extended description of the whole category."
+  }
+]
+
+export const cards = [{
   "category": "AT",
   "name": "honesty",
   "definition": "loremipsum",
@@ -22,4 +32,4 @@
     "experts": "loremipsum",
     "machine": "loremipsum"
   }
-}
+}]
