@@ -1,4 +1,4 @@
-export const categories = [{
+export const categories = [
   {
     "code": "AT",  //two characters upper case - these also appear in corresponding cards
     "name": "name of category", 
